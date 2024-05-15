@@ -71,6 +71,6 @@ class ArticuloController extends Controller
     public function destroy(Request $request)
     {
         $articulo = Articulo::destroy($request->id);
-        return $articulo
+        return $articulo;
     }
 }
